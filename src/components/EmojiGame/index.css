@@ -1,0 +1,25 @@
+/* Write your code here. */
+.bg {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.emoji-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 80vh;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-list-container {
+    width: 90vw;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

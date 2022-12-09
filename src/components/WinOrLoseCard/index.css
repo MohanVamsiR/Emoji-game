@@ -1,0 +1,75 @@
+/* Write your code here. */
+.card-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 4px solid #ffffff30;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.img-container {
+  display: flex;
+}
+
+.result-img {
+  width: 200px;
+  height: 250px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.play-btn {
+  border: none;
+  outline: none;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  height: 42px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.won {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.score-para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.total-score {
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card-bg {
+    flex-direction: row;
+    padding: 80px;
+  }
+
+  .img-container {
+    order: 1;
+  }
+  .result-img {
+    height: 400px;
+    width: 300px;
+    margin-left: 30px;
+  }
+}
